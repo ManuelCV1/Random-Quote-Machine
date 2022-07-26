@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+#quote-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    border-width: 2.9px;
+    border-color: #282c34bd;
+    border-radius: 3px;
+    margin:13% 20% 0% 20%;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+#text{
+    text-align: center;
+    font-size: 25px;
+    font-weight:500;
+}
+
+#author{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size:20px;
+    font-weight:500;
+    text-align: right;
+    margin-right: 15px;
+}
+.quote-box-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#tweet-quote{
+    color:darkslategrey;
+    display: block;
+    font-size:50px;
+    margin-left: 15px;
+}
+#tweet-quote:hover{
+    color: rgba(255, 255, 255, .5);
+    transform: scale(1.2);
+}
+
+#new-quote{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-family: sans-serif;
+    display: block;
+    margin-right: 15px;
+    width: 100px;
+    height: 35px;
+    margin-top: 4px;
+    background-color: rgba(255, 255, 255, .0001);
+    border-radius: 3px;
+    border-color: rgba(0, 0, 0, .6);
+    border: none;
+}
+#new-quote:hover{
+    background-color: rgba(255, 255, 255, .5);
+    transform: scale(1.05);
+}
+
